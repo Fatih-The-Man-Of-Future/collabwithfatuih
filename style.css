@@ -407,6 +407,10 @@ body {
 }
 
 .pooters {
-    background-color: #000000;
     color: white;
+}
+
+.pooters {
+    margin-top: 30px;
+    padding-left: 150px;
 }
