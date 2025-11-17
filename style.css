@@ -597,3 +597,14 @@ transition: opacity 0.6s ease-out, transform 0.6s ease-out;
     opacity: 1; /* Jadi kelihatan */
     transform: translateY(0);
 }
+
+.tentang-kopium {
+opacity: 0;
+transform: translateY(30px); 
+transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+
+.tentang-kopium.visible {
+    opacity: 1; /* Jadi kelihatan */
+    transform: translateY(0);
+}
